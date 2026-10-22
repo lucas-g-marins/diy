@@ -15,6 +15,9 @@ function App() {
     "sit in the discomfort of not knowing for a little while",
     "it will take some time but you'll get there",
     "meow meow yes",
+    "sometimes some things weren't meant to be done",
+    "honestly... don't know",
+    "kachigga",
   ];
 
   const [response, setResponse] = useState("");
