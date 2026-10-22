@@ -41,7 +41,7 @@ body {
 
 .all-powerful-button {
   font-family: "VGTreeside";
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   background-color: #000;
   color: #fafafa;
   padding: 15px 0; 
@@ -61,6 +61,7 @@ body {
 .epic-response-text {
   font-family: "VGTreeside";
   font-size: 2rem;
+  text-align: center;
 }
 
 textarea {
@@ -76,6 +77,9 @@ textarea:focus {
 footer {
   display: flex;
   justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 

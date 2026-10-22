@@ -24,11 +24,11 @@ function App() {
     const randomResponse =
       responses[Math.floor(Math.random() * responses.length)];
     setResponse(
-      `thinking... well not actually this is just a timer to make you think like i'm thinking but really i'm just programmed to wait for 3 seconds before giving you a response`,
+      `thinking... ${"\n"} well not actually this is just a timer to make you think like i'm thinking but really i'm just programmed to wait for 2 seconds before giving you a response`,
     );
     setTimeout(async () => {
       await setResponse(randomResponse);
-    }, 3000);
+    }, 2000);
   };
 
   return (
