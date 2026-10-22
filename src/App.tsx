@@ -18,6 +18,7 @@ function App() {
     "sometimes some things weren't meant to be done",
     "honestly... don't know",
     "kachigga",
+    "swag on em",
   ];
 
   const [response, setResponse] = useState("");
