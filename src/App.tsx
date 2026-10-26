@@ -5,7 +5,7 @@ import { useState } from "react";
 function App() {
   const responses = [
     "you know what. i think you got this one",
-    "give it shot",
+    "give it a shot",
     "shoot for the moon and you'll hit the stars",
     "why not uhh try it yourself",
     "give it a go",
@@ -17,8 +17,8 @@ function App() {
     "meow meow yes",
     "sometimes some things weren't meant to be done",
     "honestly... don't know",
-    "kachigga",
-    "swag on em",
+    "try it out",
+    "step 1: go for it",
   ];
 
   const [response, setResponse] = useState("");
